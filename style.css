@@ -3,6 +3,10 @@ html {background-color: #328EE4
 
 }
 
+body{
+    margin: 0;
+}
+
 header {
 
     position:fixed;
@@ -57,9 +61,29 @@ header {
     border-radius: 10%;
 }
 
+.text {
+    margin-left: 10px   ;
+    margin-top: 150px;
+    font-family: "Open sans", sans-serif;
+    font-weight: 300;
+    font-size: 25px;        
+    font-style: normal;
+    color: whitesmoke;
+}
+
 h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 42px; /* Adjust the font size as needed */
 
+}
+
+footer{
+    position:fixed;
+    box-sizing: border-box;
+    position: static;
+    width: 100%;
+    padding: 200px;
+    background: rgb(41, 92, 136);
+ 
 }
