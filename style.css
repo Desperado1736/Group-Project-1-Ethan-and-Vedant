@@ -81,26 +81,23 @@ h2 {
 footer{
     box-sizing: border-box;
     position: static;
+    padding-bottom: 50px;
     width: 100%;
-    padding: 150px;
     background: rgb(41, 92, 136);
  
 }
- .form {
-    padding-left: 30px;
+ .form form{
+    display: flex;
+    margin-right: 10rem;
+    /* padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 250px;
     border-radius: 5px;
-    background-color: rgb(27, 75, 118);
+    background-color: rgb(27, 75, 118); */
  }
- .form h4{
-    margin:0px;
-    padding:0px;
- }
- .form form label{
-    margin:0px;
-    padding:0px;
+ .form h2{
+
  }
 
 
@@ -116,4 +113,63 @@ h3::first-letter {
 h2::selection {
     color: red;
     background-color: black
-  }
+}
+.footer-container {
+    display:flex;
+    justify-content: space-between;
+    color:#FFFFFF;
+    margin: 0 auto;
+}
+.footer-1 {
+    display:flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 10rem;
+}
+
+.footer-1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+}
+
+.footer-1 a:hover {
+    color: aqua;
+    transition: 0.3s ease-out;
+}
+
+#mail {
+    width:250px;
+    height:40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 15px; 
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#mail::placeholder {
+    color: #4c286a;
+}
+
+#button {
+    width: 100px;
+    height:42px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color:rgb(134, 208, 208);
+    transition: all 0.2s ease-in;
+}
+
+#mail:invalid{
+    background-color: rgb(242, 149, 63);
+}
+
