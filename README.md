@@ -6,4 +6,7 @@
 - before
 - first-letter
 - selection
+- hover
+- invalid
+- placeholder
 
