@@ -79,11 +79,27 @@ h2 {
 }
 
 footer{
-    position:fixed;
     box-sizing: border-box;
     position: static;
     width: 100%;
-    padding: 200px;
+    padding: 150px;
     background: rgb(41, 92, 136);
  
 }
+ .form {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgb(27, 75, 118);
+ }
+ .form h4{
+    margin:0px;
+    padding:0px;
+ }
+ .form form label{
+    margin:0px;
+    padding:0px;
+ }
+
