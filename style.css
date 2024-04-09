@@ -61,9 +61,14 @@ header {
     border-radius: 10%;
 }
 
+
+
 .text {
+    display: flex;
+    flex-direction: column;
     margin-left: 10px   ;
     margin-top: 150px;
+    margin-bottom: 100px;
     font-family: "Open sans", sans-serif;
     font-weight: 300;
     font-size: 25px;        
@@ -95,9 +100,6 @@ footer{
     width: 250px;
     border-radius: 5px;
     background-color: rgb(27, 75, 118); */
- }
- .form h2{
-
  }
 
 
@@ -170,6 +172,30 @@ h2::selection {
 }
 
 #mail:invalid{
-    background-color: rgb(242, 149, 63);
+    background-color: rgb(231, 120, 114);
 }
+p::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(90, 233, 135);
+  }
+
+.images{
+    display: flex;
+}
+
+.first-2 {
+    width: 55%;
+}
+
+.seal-pic{
+    width:45%;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+.first-2 div p{
+    word-wrap: break-word;
+}
+
+
 
