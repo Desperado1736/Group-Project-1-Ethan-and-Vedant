@@ -9,4 +9,5 @@
 - hover
 - invalid
 - placeholder
+- visited
 

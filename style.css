@@ -79,7 +79,7 @@ header {
 h2 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 42px; /* Adjust the font size as needed */
+    font-size: 42px; 
 
 }
 
@@ -127,13 +127,19 @@ h2::selection {
     flex-direction: column;
     margin-right: 5rem;
     margin-left: 10rem;
+    
+    font-size: 25px;
+
 }
 
 .footer-1 a {
     color: #FFFFFF;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+    
+    
 }
 
 .footer-1 a:hover {
@@ -142,7 +148,19 @@ h2::selection {
 }
 
 .footer-1 a:visited {
-    color: #4c286a;
+    color: #FFFFFF;
+}
+.footer-1 a[href="https://github.com/Desperado1736/Group-Project-1-Ethan-and-Vedant"]:visited {
+    color: #4c286a; 
+}
+.footer-1 a[href="https://www.youtube.com/shorts/PclZVqdHkw8"]:visited {
+    color: #fa0a0a; 
+}
+.footer-1 a[href="https://www.youtube.com/shorts/z8EuI5bobe8"]:visited {
+    color: hsl(57, 96%, 51%); 
+}
+.footer-1 a[href="https://www.youtube.com/shorts/dklomBtFzeU"]:visited {
+    color: hsl(136, 96%, 51%); 
 }
 
 #mail {
@@ -154,10 +172,12 @@ h2::selection {
     font-size: 15px; 
     padding-right: 0.5rem;
     margin-right: 0.5rem;
+    font-family: 'Exo 2', sans-serif;
 }
 
 #mail::placeholder {
     color: #4c286a;
+    font-family: 'Exo 2', sans-serif;
 }
 
 #button {
@@ -167,6 +187,7 @@ h2::selection {
     outline: none;
     border: none;
     font-size: 1rem;
+    font-family: 'Exo 2', sans-serif;
 }
 
 #button:hover{
@@ -196,10 +217,34 @@ p::first-letter {
     width:45%;
     object-fit: contain;
     margin-right: 1rem;
+    opacity: 0.8; 
+    border-radius: 90%;
+  
+     
 }
 .first-2 div p{
     word-wrap: break-word;
 }
 
+
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: #328EE4;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+
+.tab:hover {
+    background-color: #f1f1f1;
+}
 
 
